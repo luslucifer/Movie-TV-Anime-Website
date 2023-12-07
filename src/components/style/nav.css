@@ -1,0 +1,28 @@
+.nav{
+     display: flex; 
+     position :fixed;
+     z-index: 999;
+     width: 100vw;
+    /* grid-template-columns: repeat(4,minmax(0,1fr));  */
+    flex-direction: row;
+    /* margin-right: ; */
+    background: rgb(56, 56, 56);
+    
+}
+h3{
+    color: rgb(237, 245, 237);
+    font-weight: 900;
+}
+
+a{
+    margin-right: 2rem;
+}
+a:nth-child(3){
+    /* background-color: aqua; */
+    margin-right: 0rem;
+}
+
+a:nth-child(1){
+    /* background: red; */
+    margin-left: 4rem;
+}

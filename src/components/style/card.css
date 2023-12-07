@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.poster{
+    width: 50vw;
+    /* transition:6s;
+    transform: rotate(13deg); */
+}
+.poster{
+    /* border: 1px solid red ; */
+    transition: 5s;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 5px;
+    /* position: relative; */
+}
+
+.card:hover .poster{
+    filter: blur(5px);
+    transition: 1s;
+}
+
+.card:hover .playBtn{
+    display: inline;
+    pointer-events:auto;
+}
+
+.playBtn {
+    display: none;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    transform: translate(-100%, 34%);
+    width: 50vw;
+    fill: red;
+    stroke: green;
+    z-index: 2;
+    opacity: 0.7;
+    pointer-events: none;
+  }

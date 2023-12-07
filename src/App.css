@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.mainContainer{
+    /* background-color: black; */
+    /* display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center; */
+    /* width: 100vw; */
+    /* background: fixed url('./assets/img/money-heist.jpg') center center/cover ; */
+    /* height: 100vh; */
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    place-items: center;
+    grid-row-gap:0.5rem;
+    
+}
